@@ -143,6 +143,7 @@
 				});
 
 		// Panel.
+
 			$navPanel = $(
 				'<div id="navPanel">' +
 					'<nav>' +
@@ -164,6 +165,9 @@
 
 			// Get inner.
 				$navPanelInner = $navPanel.children('nav');
+				// $navPanelInner = $(function(){
+				// 	$("#navPanel").load("navbar.html");
+				// 	});
 
 			// Move nav content on breakpoint change.
 				var $navContent = $nav.children();
