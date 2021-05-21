@@ -33,9 +33,11 @@ linkedin_username:  sammijaderosser
 
 # Build settings
 #theme: jekyll-theme-prologue
-remote_theme: Bergam0t/gh-pages
+#remote_theme: Bergam0t/gh-pages
+remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 collections: [sections]
 
