@@ -37,3 +37,8 @@ I wasn't a natural diver. I struggled with every aspect of it.
 I bloody loved it.
 
 I bring this attitude to everything else I have tackled in my life. My studies, my jobs - I will throw myself into it with a smile on my face. I believe you can learn anything and do anything with the right attitude and, more importantly, the right people around you.
+
+
+### Misc
+
+Huge thanks to Katerina Bosko for some very helpful articles on [customising the Minimal Mistakes theme](https://www.cross-validated.com/Personal-website-with-Minimal-Mistakes-Jekyll-Theme-HOWTO-Part-II/).

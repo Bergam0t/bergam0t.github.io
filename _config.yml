@@ -33,7 +33,7 @@ linkedin_username:  sammijaderosser
 #theme: jekyll-theme-prologue
 #remote_theme: Bergam0t/gh-pages
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.23.0"
+remote_theme: "Bergam0t/minimal-mistakes@4.23.0"
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
@@ -88,6 +88,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sammijaderosser/"
+    - label: "DataCamp"
+      icon: "/assets/icons/datacamp.ico"
+      url: "https://www.datacamp.com/profile/sammirosser/"
 
 footer:
   links:
