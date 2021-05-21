@@ -30,7 +30,7 @@ I'm not a great swimmer. Therefore, before starting university, it seemed like a
 
 So, at 18, I paid the money I'd saved, packed a rucksack that was almost bigger than me, and got on a plane to Indonesia.
 
-![Travel Photo](/assets/images/gili.JPG)
+![Travel Photo](/assets/images/P1010224.JPG)
 
 I became a PADI qualified rescue diver (after obtaining my open water and advanced open water qualifications). I failed my first attempt after not locating the missing diver, and narrowly avoided being rescued on my second attempt after one fin fell off and I had to swim against a current to get back to shore while carrying an extra set of diving gear. Honestly, don't expect me to rescue you in anything larger than a pond.
 
