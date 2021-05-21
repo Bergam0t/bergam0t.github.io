@@ -17,7 +17,9 @@ More informally...
 
 
 **Conferences Attended:**
+
 May 2021 (virtual) - Association for Professional Healthcare Analysts (AphA) 
+
 December 2020 (virtual) - Developer!Developer!Developer! 
 
 **Outside of work**
