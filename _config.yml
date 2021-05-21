@@ -33,7 +33,7 @@ linkedin_username:  sammijaderosser
 
 # Build settings
 #theme: jekyll-theme-prologue
-remote_theme: bergam0t/gh-pages
+remote_theme: Bergam0t/gh-pages
 plugins:
   - jekyll-feed
 
