@@ -1,6 +1,6 @@
 ---
-permalink: /useful-resources/
-title: "Useful Resources for Health Data Scientists"
+permalink: /useful-resources-health-data-science/
+title: "Useful Resources for Health Data Science"
 ---
 
 This is a collection of resources I collated over the course of my MSc Health Data Science.

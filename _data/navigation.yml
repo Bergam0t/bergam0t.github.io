@@ -1,11 +1,13 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  # - title: "Categories"
+  #   url: /categories/
+  # - title: "Tags"
+  #   url: /tags/
   - title: "Who Am I?"
     url: /about/
-  - title: "Useful Resources"
-    url: /useful-resources/ 
+  - title: "Resources for Health Data Science"
+    url: /useful-resources-health-data-science/ 
+  - title: "Shiny Resources"
+    url: /shiny-resources/ 
