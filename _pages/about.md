@@ -8,23 +8,26 @@ title: "Who Am I?"
 # Education
 
 **MSc Health Data Science** - Distinction - University of Exeter - 2021
+
 *Dean's Commendation*
+
 *Angela Shore Award for the highest mark for the project module in the 2020-21 Health Data Science MSc cohort*
+
 
 **BA Biological Science** - 2:1 - Lady Margaret Hall, University of Oxford - 2014
 
 More informally...
 
-More [DataCamp certificates](https://www.datacamp.com/profile/sammirosser) than you can shake a stick at (52 as of April 2021).
+More [DataCamp certificates](https://www.datacamp.com/profile/sammirosser) than you can shake a stick at (56 as of December 2021).
 
 # Programming languages and frameworks
 
 * R (intermediate/advanced)
 * Python (advanced)
-    * Django (sample project)
+    * Django ([sample project](https://github.com/Bergam0t/ed-demand-capacity-web))
 * SQL (most experience with T-SQL, intermediate)
 * Javascript (beginner)
-    * ReactJS (sample project)
+    * ReactJS ([sample project](https://github.com/Bergam0t/ed-demand-capacity-web))
 
 
 # Conferences Attended
