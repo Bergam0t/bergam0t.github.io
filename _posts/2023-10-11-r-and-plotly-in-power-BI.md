@@ -7,4 +7,4 @@ categories: powerbi r plotly dataviz
 
 These are the slides from the presentation I gave at the 2023 NHS-R conference (online) on Wednesday 11th October 2023.
 
-<object data="../assets/powerbi_r_plotly_presentation.pdf.pdf" width="1200" height="800" type='application/pdf'></object>
+<object data="../assets/powerbi_r_plotly_presentation.pdf" width="1200" height="800" type='application/pdf'></object>
