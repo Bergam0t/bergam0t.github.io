@@ -16,11 +16,16 @@ If you have a large number of postcodes in a dataframe that you want to look up,
 import requests
 import pandas as pd
 
-postcode_list = ["SW1W 0NY", "PO16 7GZ", "GU16 7HF", "L1 8JQ", "EX27JW"]
+postcode_list = [
+    "SW1W 0NY", "PO16 7GZ", 
+    "GU16 7HF", "L1 8JQ", 
+    "EX27JW" # example missing space
+    ]
 
 # Send API request, passing in your postcodes as a list
-postcode_lookup = requests.post("https://api.postcodes.io/postcodes", 
-             json={"postcodes": postcode_list}
+postcode_lookup = requests.post(
+    "https://api.postcodes.io/postcodes", 
+     json={"postcodes": postcode_list}
 )
 
 # Check the response. 200 is good! 400 is bad.  
@@ -38,9 +43,12 @@ postcode_df = pd.json_normalize(
 This will then output a rather nice dataframe you can subset and join into your main dataframe using something like
 
 ```python
-my_df_with_lookup = my_df.merge(postcode_df, 
-                                left_on="postcode_column", right_on="query", 
-                                how="left")
+my_df_with_lookup = my_df.merge(
+    postcode_df, 
+    left_on="postcode_column", 
+    right_on="query", 
+    how="left"
+    )
 ```
 
 Enjoy!
