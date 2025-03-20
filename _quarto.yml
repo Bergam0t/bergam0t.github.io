@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "bergam0t.github.io"
+  navbar:
+    title: "Sammi Rosser"
+    collapse-below: "xl"
+    tools:
+      - icon: github
+        menu:
+          - text: View my Github
+            href:  https://github.com/bergam0t
+          - text: View the HSMA Github
+            href:  https://github.com/hsma-programme
+      - icon: envelope
+        href: mailto:penchord@exeter.ac.uk?subject=Contact%20from%20Your%20Website%20\*\*
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sammijaderosser/
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - darkly
+      - theme-dark.scss
+      - resources/fonts/css/big_shoulders.css
+    css: styles.css
+    toc: true
+    title-block-banner: /resources/banner.png
+    mainfont: Big Shoulders
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
