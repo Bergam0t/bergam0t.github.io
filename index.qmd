@@ -10,7 +10,7 @@ page-layout: full
 about:
   id: hero-heading
   template: jolla
-  image-width: 40%
+  image-width: 30%
   links:
     - icon: github
       text: GitHub
