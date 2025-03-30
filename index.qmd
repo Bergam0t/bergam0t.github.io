@@ -1,0 +1,56 @@
+---
+title: "Sammi Rosser"
+description-meta: "Sammi Rosser - Data Science & Operational Research in Healthcare"
+image: "profile.JPG"
+page-navigation: false
+toc: false
+#sidebar: false
+page-layout: full
+
+about:
+  id: hero-heading
+  template: jolla
+  image-width: 40%
+  links:
+    - icon: github
+      text: GitHub
+      href: https://www.github.com/Bergam0t
+      target: _blank
+    - icon: globe
+      text: University Profile
+      href: https://experts.exeter.ac.uk/40592-sammi-rosser
+      target: _blank
+    - text: "{{< fa computer >}} HSMA Programme Website"
+      href: https://www.hsma.co.uk
+      target: _blank
+    - icon: book
+      text: HSMA Books
+      href: https://hsma.co.uk/books
+    - icon: envelope
+      text: E-mail
+      href: mailto:hi@sammirosser.com    
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/samanthajaderosser
+      target: _blank
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/@HSMA     
+      target: _blank 
+    - text: "{{< fa brands orcid >}} ORCID"   
+      href: https://orcid.org/0000-0002-9552-8988
+      target: _blank
+
+---
+
+:::{#hero-heading}
+
+Hi there - I'm Sammi! 🚵 🏸 🎷 👩‍💻
+
+I'm currently a trainer on the Health Service Modelling Associates (HSMA) Programme, teaching public sector analysts, clinicians and managers how to use and apply data science and operational research techniques.
+
+I was previously a data analyst, and later data scientist, in a mental health trust in the NHS.
+
+
+
+:::

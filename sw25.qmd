@@ -1,0 +1,32 @@
+---
+title: SW25 - Vidigi Poster
+format: 
+    html:
+        toc: false
+---
+
+
+::::{.columns}
+
+:::{.column width=50%}
+
+
+[{{< fa book >}} Check out the vidigi package documentation!](https://sammirosser.com/vidigi/vidigi_docs/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip"}
+
+:::
+
+:::{.column width=50%}
+
+[{{< fa brands github >}} Check out the source code on GitHub](https://github.com/Bergam0t/vidigi){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip"}
+
+:::
+
+::::
+
+## View the poster here.
+
+{{< pdf sw25vidigi.pdf width=100% height=600 >}}
+
+## Watch the package in action
+
+<https://www.canva.com/design/DAGiQaZ0BJ8/WxgV1BpNO161ykLHqTqxXg/watch>
