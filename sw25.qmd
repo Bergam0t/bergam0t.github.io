@@ -1,6 +1,6 @@
 ---
 title: SW25 - Vidigi Poster
-format: 
+format:
     html:
         toc: false
 ---
@@ -8,14 +8,18 @@ format:
 
 ::::{.columns}
 
-:::{.column width=50%}
+:::{.column width=45%}
 
 
 [{{< fa book >}} Check out the vidigi package documentation!](https://sammirosser.com/vidigi/vidigi_docs/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip"}
 
 :::
 
-:::{.column width=50%}
+:::{.column width=10%}
+
+:::
+
+:::{.column width=45%}
 
 [{{< fa brands github >}} Check out the source code on GitHub](https://github.com/Bergam0t/vidigi){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip"}
 
@@ -23,10 +27,28 @@ format:
 
 ::::
 
-## View the poster here.
-
-{{< pdf sw25vidigi.pdf width=100% height=600 >}}
-
 ## Watch the package in action
 
-<https://www.canva.com/design/DAGiQaZ0BJ8/WxgV1BpNO161ykLHqTqxXg/watch>
+```{=html}
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGiQaZ0BJ8/CdWktcw2PYjOJxMZt2c5aQ/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGiQaZ0BJ8&#x2F;CdWktcw2PYjOJxMZt2c5aQ&#x2F;watch?utm_content=DAGiQaZ0BJ8&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Vidigi Showcase</a> by Sammi Rosser
+```
+
+## View the poster here.
+
+```{=html}
+<div style="position: relative; width: 100%; height: 0; padding-top: 141.3793%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGiK5DIsVg/MD7bN6a8MohUub2tT7m4wA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGiK5DIsVg&#x2F;MD7bN6a8MohUub2tT7m4wA&#x2F;view?utm_content=DAGiK5DIsVg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">vidigi poster - SW25</a> by Sammi Rosser
+```
