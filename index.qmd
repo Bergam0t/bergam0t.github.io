@@ -9,8 +9,8 @@ page-layout: full
 
 about:
   id: hero-heading
-  template: jolla
-  image-width: 30%
+  template: trestles
+  image-width: 60%
   links:
     - icon: github
       text: GitHub
@@ -24,20 +24,20 @@ about:
       href: https://www.hsma.co.uk
       target: _blank
     - icon: book
-      text: HSMA Books
+      text: Our Free HSMA eBooks
       href: https://hsma.co.uk/books
     - icon: envelope
-      text: E-mail
-      href: mailto:hi@sammirosser.com    
+      text: Email
+      href: mailto:hi@sammirosser.com
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/samanthajaderosser
+      href: https://www.linkedin.com/in/sammijaderosser/
       target: _blank
     - icon: youtube
       text: YouTube
-      href: https://www.youtube.com/@HSMA     
-      target: _blank 
-    - text: "{{< fa brands orcid >}} ORCID"   
+      href: https://www.youtube.com/@HSMA
+      target: _blank
+    - text: "{{< fa brands orcid >}} ORCID"
       href: https://orcid.org/0000-0002-9552-8988
       target: _blank
 
@@ -47,10 +47,34 @@ about:
 
 Hi there - I'm Sammi! 🚵 🏸 🎷 👩‍💻
 
-I'm currently a trainer on the Health Service Modelling Associates (HSMA) Programme, teaching public sector analysts, clinicians and managers how to use and apply data science and operational research techniques.
+I'm currently a trainer on the Health Service Modelling Associates (HSMA) Programme, teaching public sector analysts, clinicians and managers how to use and apply data science and operational research techniques. I was previously a data analyst, and later data scientist, in a mental health trust in the NHS.
 
-I was previously a data analyst, and later data scientist, in a mental health trust in the NHS.
+I work with and teach a range of technologies to students on the HSMA programme, specialising in
 
+- discrete event simulation (DES)
+- creating and deploying web applications
+- geographic visualisation
+- location and boundary optimization problems
+- tree-based machine learning models
+- explainable AI
+- reproducible reporting with Quarto
 
 
 :::
+
+We teach exclusively free and open source software on HSMA - primarily using the Python programming language - and all HSMA training material is released under a non-commercial open source licence, so check out [hsma.co.uk/learn](https://hsma.co.uk/learn) if you'd like to work through our teaching sessions, which include all lecture recordings and coding exercises from the full programme, at your own pace. No prior Python experience is necessary - we start from the very beginning!
+
+I have also turned our course content into openly-available eBooks, with free eBooks available so far on
+
+- Python programming for beginners ([python.hsma.co.uk](https://python.hsma.co.uk))
+- discrete event simulation in Python with SimPy ([des.hsma.co.uk](https://des.hsma.co.uk))
+- geographic visualisation and optimization in QGIS and Python ([geographic.hsma.co.uk](https://geographic.hsma.co.uk))
+- web app development in Streamlit ([webapps.hsma.co.uk](https://webapps.hsma.co.uk))
+
+I'm passionate about making the outputs of the techniques we teach easier for stakeholders to understand. To that end, I'm currently working on the [vidigi](https://github.com/Bergam0t/vidigi) package for visualising patient flow in simulation models or real-world data.
+
+You can find out more about vidigi via my [SW25 poster here](sw25.qmd). Here's an example of it in action with a simulated emergency department![^1]
+
+![](vidigi.gif)
+
+[^1]: Original Model from Thomas Monks. (2022), which is itself a free and open implementation of the Treatment Centre Model from Nelson (2013). TomMonks/treatment-centre-sim: v0.1.0 (v0.1.0). Zenodo. [https://doi.org/10.5281/zenodo.6497477](https://doi.org/10.5281/zenodo.6497477) Animation created by Sammi Rosser as part of vidigi testing.
