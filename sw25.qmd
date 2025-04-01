@@ -11,7 +11,7 @@ format:
 :::{.column width=45%}
 
 
-[{{< fa book >}} Check out the vidigi package documentation!](https://sammirosser.com/vidigi/vidigi_docs/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip"}
+[{{< fa book >}} Check out the vidigi package documentation](https://sammirosser.com/vidigi/vidigi_docs/){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip"}
 
 :::
 
@@ -40,7 +40,7 @@ format:
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGiQaZ0BJ8&#x2F;CdWktcw2PYjOJxMZt2c5aQ&#x2F;watch?utm_content=DAGiQaZ0BJ8&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Vidigi Showcase</a> by Sammi Rosser
 ```
 
-## View the poster here.
+## View the poster
 
 ```{=html}
 <div style="position: relative; width: 100%; height: 0; padding-top: 141.3793%;

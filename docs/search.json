@@ -4,7 +4,7 @@
     "href": "sw25.html",
     "title": "SW25 - Vidigi Poster",
     "section": "",
-    "text": "Check out the vidigi package documentation!\n\n\n\n Check out the source code on GitHub"
+    "text": "Check out the vidigi package documentation\n\n\n\n Check out the source code on GitHub"
   },
   {
     "objectID": "sw25.html#watch-the-package-in-action",
@@ -14,11 +14,18 @@
     "text": "Watch the package in action\n\n  \n  \n\nVidigi Showcase by Sammi Rosser"
   },
   {
-    "objectID": "sw25.html#view-the-poster-here.",
-    "href": "sw25.html#view-the-poster-here.",
+    "objectID": "sw25.html#view-the-poster",
+    "href": "sw25.html#view-the-poster",
     "title": "SW25 - Vidigi Poster",
-    "section": "View the poster here.",
-    "text": "View the poster here.\n\n  \n  \n\nvidigi poster - SW25 by Sammi Rosser"
+    "section": "View the poster",
+    "text": "View the poster\n\n  \n  \n\nvidigi poster - SW25 by Sammi Rosser"
+  },
+  {
+    "objectID": "des_playground.html",
+    "href": "des_playground.html",
+    "title": "The Discrete Event Simulation Playground",
+    "section": "",
+    "text": "Discrete Event Simulation is a powerful tool for improving pathways, of which there are a lot in healthcare services.\nOriginally built for introducing people to Discrete Event Simulation at our HSMA open day, this web application is freely available for you to use and adapt under a CC BY-NC-SA 4.0 licence.\nIt gradually introduces key concepts relating to discrete event simulation, including sampling from distributions, the role of random seeds, resources, multiple runs, and more.\nUsers are able to adjust a range of parameters and rerun the modelk. A range of animations, built using code that would go on to become the vidigi package, help users to develop their understanding of discrete event simulation as a technique, with a range of other visualisations used to guide their attention to important learning points at each stage.\nWritten using stlite - which brings the power of browser-based python to the Streamlit framework - the tool has been tested with 50+ concurrent users, with the users’ hardware undertaking all calculations, minimising hosting requirements.\n\n\n\n\n\n\nNote\n\n\n\nDue to the use of browser-based Python, the tool can run slowly on older hardware. It is recommended to be used on a laptop or desktop PC rather than a phone (though a phone will work - slowly - in a pinch!)\n\n\n\n    \n        Open the Playground in a New Tab\n        View the Code\n    \n\nTry it out below!"
   },
   {
     "objectID": "index.html",
