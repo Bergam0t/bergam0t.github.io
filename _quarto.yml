@@ -12,7 +12,7 @@ website:
         text: SW25 Poster Links
       - text: "Projects"
         menu:
-        - href: des_playground.qmd
+        - href: projects/des_playground.qmd
           text: The DES Playground
 
 format:

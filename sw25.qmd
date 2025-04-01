@@ -52,3 +52,9 @@ format:
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGiK5DIsVg&#x2F;MD7bN6a8MohUub2tT7m4wA&#x2F;view?utm_content=DAGiK5DIsVg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">vidigi poster - SW25</a> by Sammi Rosser
 ```
+
+## Have a go with a simple interface
+
+```{=html}
+<iframe class="hsma-iframe" width="90%" height="900px" src="https://vidigisw25.streamlit.app/?embed=true" title="Simple Interactive Vidigi Demo"></iframe>
+```

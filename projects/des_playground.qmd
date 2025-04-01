@@ -63,9 +63,11 @@ Originally built for introducing people to Discrete Event Simulation at our HSMA
 
 It gradually introduces key concepts relating to discrete event simulation, including sampling from distributions, the role of random seeds, resources, multiple runs, and more.
 
-Users are able to adjust a range of parameters and rerun the modelk. A range of animations, built using code that would go on to become the vidigi package, help users to develop their understanding of discrete event simulation as a technique, with a range of other visualisations used to guide their attention to important learning points at each stage.
+Users are able to adjust a range of parameters and rerun the model.
 
-Written using stlite - which brings the power of browser-based python to the Streamlit framework - the tool has been tested with 50+ concurrent users, with the users' hardware undertaking all calculations, minimising hosting requirements.
+A range of animations, built using code that would go on to become the vidigi package, help users to develop their understanding of discrete event simulation as a technique, with a range of other visualisations used to guide their attention to important learning points at each stage.
+
+Written using [stlite](https://github.com/whitphx/stlite) - which brings the power of browser-based python to the Streamlit framework - the tool has been tested with 50+ concurrent users, with the users' hardware undertaking all calculations. A tradtional server-based approach with Streamlit community cloud could not cope with more than a couple of users at a time before reaching the limits of the free tier - in contrast, by using stlite.
 
 :::{.callout-note}
 Due to the use of browser-based Python, the tool can run slowly on older hardware. It is recommended to be used on a laptop or desktop PC rather than a phone (though a phone will work - slowly - in a pinch!)
@@ -81,6 +83,12 @@ Due to the use of browser-based Python, the tool can run slowly on older hardwar
 ```
 
 Try it out below!
+
+:::{.callout-note}
+I'd love to know if you use this as part of your course, a workshop, or in any other way.
+
+Please do drop me a message at [hi@sammirosser.com](mailto:hi@sammirosser.com) or on [LinkedIn](https://www.linkedin.com/in/sammijaderosser/).
+:::
 
 ```{=html}
 <iframe class="hsma-iframe" width="90%" src="https://hsma-programme.github.io/Teaching_DES_Concepts_Streamlit/" title="HSMA DES Playground"></iframe>
