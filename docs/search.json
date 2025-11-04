@@ -2,28 +2,28 @@
   {
     "objectID": "talks/sw25_vidigi/sw25.html",
     "href": "talks/sw25_vidigi/sw25.html",
-    "title": "SW25 - Vidigi Poster",
+    "title": "Operational Research Society Simulation Workshop 2025 - Vidigi Poster",
     "section": "",
     "text": "Check out the vidigi package documentation\n\n\n\n Check out the source code on GitHub"
   },
   {
     "objectID": "talks/sw25_vidigi/sw25.html#watch-the-package-in-action",
     "href": "talks/sw25_vidigi/sw25.html#watch-the-package-in-action",
-    "title": "SW25 - Vidigi Poster",
+    "title": "Operational Research Society Simulation Workshop 2025 - Vidigi Poster",
     "section": "Watch the package in action",
     "text": "Watch the package in action\n\n  \n  \n\nVidigi Showcase by Sammi Rosser"
   },
   {
     "objectID": "talks/sw25_vidigi/sw25.html#view-the-poster",
     "href": "talks/sw25_vidigi/sw25.html#view-the-poster",
-    "title": "SW25 - Vidigi Poster",
+    "title": "Operational Research Society Simulation Workshop 2025 - Vidigi Poster",
     "section": "View the poster",
     "text": "View the poster\n\n  \n  \n\nvidigi poster - SW25 by Sammi Rosser"
   },
   {
     "objectID": "talks/sw25_vidigi/sw25.html#have-a-go-with-a-simple-interface",
     "href": "talks/sw25_vidigi/sw25.html#have-a-go-with-a-simple-interface",
-    "title": "SW25 - Vidigi Poster",
+    "title": "Operational Research Society Simulation Workshop 2025 - Vidigi Poster",
     "section": "Have a go with a simple interface",
     "text": "Have a go with a simple interface"
   },
@@ -32,7 +32,7 @@
     "href": "talks/2411_nhsr/2411_nhsr.html",
     "title": "NHS RPYSOC 2024 Conference: Unleashing the power of pathway simulation",
     "section": "",
-    "text": "Discrete Event Simulation (DES) is a powerful tool for modelling queuing problems, allowing complex questions about pathways and resourcing to be explored before making costly and potentially risky changes to health services.\nHowever, there are barriers to its adoption: dedicated commercial software is prohibitively expensive, while free code-based open-source options are powerful and flexible but can be difficult to get started with and often lack the ability to clearly and engagingly visualise the model’s inner workings for stakeholders.\nThis talk provides a brief introduction to DES before covering a range of efforts that are underway within our team to overcome these problems and make DES an accessible modelling approachfor everyone working in healthcare:\nWhile the work primarily revolves around the SimPy package in Python, several elements have potential to be adapted for use with Python’s ciw package or R’s simmer package.\nWith the first version of the book available, several example models created, and the visualisation package due to be released in late 2024, now is a great time to start exploring the world of pathway simulation!"
+    "text": "Discrete Event Simulation (DES) is a powerful tool for modelling queuing problems, allowing complex questions about pathways and resourcing to be explored before making costly and potentially risky changes to health services.\nHowever, there are barriers to its adoption: dedicated commercial software is prohibitively expensive, while free code-based open-source options are powerful and flexible but can be difficult to get started with and often lack the ability to clearly and engagingly visualise the model’s inner workings for stakeholders.\nThis talk provides a brief introduction to DES before covering a range of efforts that are underway within our team to overcome these problems and make DES an accessible modelling approachfor everyone working in healthcare:\n\nbuilding a repository of adaptable models for a variety of common pathways in healthcare;\nwriting a free ebook in Quarto to give people a clear way to learn;\nbuilding interactive tools to teach the underlying concepts to non-technical audiences;\nand creating a simple yet flexible visualisation package to generate animations showing the flow of entities within the simulated system, helping to make the models more understandable.\n\nWhile the work primarily revolves around the SimPy package in Python, several elements have potential to be adapted for use with Python’s ciw package or R’s simmer package.\nWith the first version of the book available, several example models created, and the visualisation package due to be released in late 2024, now is a great time to start exploring the world of pathway simulation!"
   },
   {
     "objectID": "talks/2411_nhsr/2411_nhsr.html#slides",
@@ -49,11 +49,11 @@
     "text": "Slide Code\nView the repository for the slides at github.com/Bergam0t/nhsr_conf_2024_pres_des"
   },
   {
-    "objectID": "talks/2311_nhsr/2311_nhsr.html",
-    "href": "talks/2311_nhsr/2311_nhsr.html",
+    "objectID": "talks/2310_nhsr/2310_nhsr.html",
+    "href": "talks/2310_nhsr/2310_nhsr.html",
     "title": "NHS R 2023 Conference (Online): Extending PowerBI’s Visualisation Capabilities – R and Plotly to the rescue!",
     "section": "",
-    "text": "NHS R 2023 Conference (Online): Extending PowerBI’s Visualisation Capabilities – R and Plotly to the rescue!"
+    "text": "NHS R 2023 Conference (Online): Extending PowerBI’s Visualisation Capabilities – R and Plotly to the rescue!\n\nWednesday 11th October 2023"
   },
   {
     "objectID": "projects/des_playground.html",
@@ -91,18 +91,11 @@
     "text": "Making NHS data science open and reproducible: the importance of open source tools, Linux, and reproducible analytical pipelines, and how the HSMA programme can help organisations get ready for the future”\nThis talk introduces the value of free and open source software for data science and advanced analytics in the NHS, and how PenARC’s flagship HSMA programme is training staff in organisations to use these tools.\nIn the NHS, there are still barriers to installing the software, to sharing code, and to communicating the value of data science an operational research - leading to missed opportunities, frustrated staff, and inefficient processes. With the high-profile machine learning library TensorFlow dropping full support for Windows, is the situation only going to get worse? What can we do?\n\nLinks to resources mentioned in the talk: Click Here\nVisit the SWAIH website: sites.google.com/nihr.ac.uk/swaih/home"
   },
   {
-    "objectID": "talks/2511_nhsrpycom/2511_nhsrpycom.html",
-    "href": "talks/2511_nhsrpycom/2511_nhsrpycom.html",
-    "title": "NHSRPySOC 2025 - NHS-R/NHS.pycom Open Source Conference - Keynote",
-    "section": "",
-    "text": "Coming Soon!"
-  },
-  {
     "objectID": "talks/2511_nhsrpycom/2511_nhsrpycom.html#recording",
     "href": "talks/2511_nhsrpycom/2511_nhsrpycom.html#recording",
     "title": "NHSRPySOC 2025 - NHS-R/NHS.pycom Open Source Conference - Keynote",
-    "section": "",
-    "text": "Coming Soon!"
+    "section": "Recording",
+    "text": "Recording\nComing Soon!"
   },
   {
     "objectID": "talks/2511_nhsrpycom/2511_nhsrpycom.html#slides",

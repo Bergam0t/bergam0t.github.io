@@ -1,5 +1,5 @@
 ---
-title: SW25 - Vidigi Poster
+title: Operational Research Society Simulation Workshop 2025 - Vidigi Poster
 format:
     html:
         toc: false

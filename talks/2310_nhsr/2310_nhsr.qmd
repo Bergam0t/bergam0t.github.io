@@ -1,3 +1,11 @@
+---
+format:
+    html:
+        toc: false
+---
+
 # NHS R 2023 Conference (Online): Extending PowerBI’s Visualisation Capabilities – R and Plotly to the rescue!
+
+#### Wednesday 11th October 2023
 
 {{< video https://youtu.be/3uSbLT7ISPc?si=VqB3co_cTTWXgniX&t=2063 >}}

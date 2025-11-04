@@ -18,8 +18,8 @@ website:
           text: RPySOC 2024 Lightning Talk
         - href: talks/2402_dsnhs/2402_dsnhs.qmd
           text: SWAIH Insight Talk
-        - href: talks/2311_nhsr/2311_nhsr.qmd
-          text: RPySOC 2024 Online Lightning Talk
+        - href: talks/2310_nhsr/2310_nhsr.qmd
+          text: RPySOC 2023 Plenary Talk
       - text: "Projects"
         menu:
         - href: projects/des_playground.qmd

@@ -1,9 +1,13 @@
 ---
 title: NHSRPySOC 2025 - NHS-R/NHS.pycom Open Source Conference - Keynote
-toc: true
-toc-depth: 3
-toc-fold: 3
+format:
+    html:
+        toc: true
+        toc-depth: 3
+        toc-fold: 3
 ---
+
+#### Friday 14th November 2024 {.unlisted}
 
 ## Recording
 

@@ -1,7 +1,11 @@
 ---
 title: "NHS RPYSOC 2024 Conference: Unleashing the power of pathway simulation"
-toc: false
+format:
+    html:
+        toc: false
 ---
+
+### Friday 22nd November 2024
 
 Discrete Event Simulation (DES) is a powerful tool for modelling queuing problems, allowing complex questions about pathways and resourcing to be explored before making costly and potentially risky changes to health services.
 
