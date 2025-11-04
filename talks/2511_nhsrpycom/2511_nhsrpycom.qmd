@@ -1,0 +1,20 @@
+---
+title: NHSRPySOC 2025 - NHS-R/NHS.pycom Open Source Conference - Keynote
+toc: true
+toc-depth: 3
+toc-fold: 3
+---
+
+## Recording
+
+Coming Soon!
+
+## Slides
+
+Coming Soon!
+
+## Resources
+
+### The tapestry of reusability
+
+![](Tapestry of reusability.svg){height="600px"}

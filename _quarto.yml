@@ -8,8 +8,18 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: sw25.qmd
-        text: SW25 Poster Links
+      - text: "Talks and Posters"
+        menu:
+        - href: talks/2511_nhsrpycom/2511_nhsrpycom.qmd
+          text: RPySOC 2025 Keynote
+        - href: talks/sw25_vidigi/sw25.qmd
+          text: OR Society Simulation Workshop 2025 Poster
+        - href: talks/2411_nhsr/2411_nhsr.qmd
+          text: RPySOC 2024 Lightning Talk
+        - href: talks/2402_dsnhs/2402_dsnhs.qmd
+          text: SWAIH Insight Talk
+        - href: talks/2311_nhsr/2311_nhsr.qmd
+          text: RPySOC 2024 Online Lightning Talk
       - text: "Projects"
         menu:
         - href: projects/des_playground.qmd

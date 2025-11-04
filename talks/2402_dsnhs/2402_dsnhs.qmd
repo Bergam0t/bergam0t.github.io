@@ -1,0 +1,21 @@
+---
+title: South West Analytics and Infrastructure in Healthcare (SWAIH) Insight Talk
+toc: false
+---
+
+## Data Science in the NHS - A journey through open source tools, Linux, and training initiatives
+
+#### 15th February 2024
+
+Making NHS data science open and reproducible: the importance of open source tools, Linux, and reproducible analytical pipelines, and how the HSMA programme can help organisations get ready for the future"
+
+This talk introduces the value of free and open source software for data science and advanced analytics in the NHS, and how PenARC's flagship HSMA programme is training staff in organisations to use these tools.
+
+In the NHS, there are still barriers to installing the software, to sharing code, and to communicating the value of data science an operational research - leading to missed opportunities, frustrated staff, and inefficient processes. With the high-profile machine learning library TensorFlow dropping full support for Windows, is the situation only going to get worse? What can we do?
+
+{{< video https://youtu.be/PuaLMKIFLcc?si=aheIlxs1TbQ_pLP0 >}}
+
+**Links to resources mentioned in the talk:** [Click Here](https://drive.google.com/file/d/1_fEVfehT_YgQiogC6ie9kCJqejSJK6dU/view)
+
+
+**Visit the SWAIH website:** [sites.google.com/nihr.ac.uk/swaih/home](https://sites.google.com/nihr.ac.uk/swaih/home)

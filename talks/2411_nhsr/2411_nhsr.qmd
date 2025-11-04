@@ -1,0 +1,33 @@
+---
+title: "NHS RPYSOC 2024 Conference: Unleashing the power of pathway simulation"
+toc: false
+---
+
+Discrete Event Simulation (DES) is a powerful tool for modelling queuing problems, allowing complex questions about pathways and resourcing to be explored before making costly and potentially risky changes to health services.
+
+However, there are barriers to its adoption: dedicated commercial software is prohibitively expensive, while free code-based open-source options are powerful and flexible but can be difficult to get started with and often lack the ability to clearly and engagingly visualise the model’s inner workings for stakeholders.
+
+This talk provides a brief introduction to DES before covering a range of efforts that are underway within our team to overcome these problems and make DES an accessible modelling approachfor everyone working in healthcare:
+
+- building a repository of adaptable models for a variety of common pathways in healthcare;
+- writing a free ebook in Quarto to give people a clear way to learn;
+- building interactive tools to teach the underlying concepts to non-technical audiences;
+- and creating a simple yet flexible visualisation package to generate animations showing the flow of entities within the simulated system, helping to make the models more understandable.
+
+While the work primarily revolves around the SimPy package in Python, several elements have potential to be adapted for use with Python’s ciw package or R’s simmer package.
+
+With the first version of the book available, several example models created, and the visualisation package due to be released in late 2024, now is a great time to start exploring the world of pathway simulation!
+
+
+{{< video https://youtu.be/s21lNo3pZVQ?list=PLXCrMzQaI6c2vQUabRSOg9_FCxp6x6cVg&t=2566 >}}
+
+## Slides
+
+```{=html}
+<iframe width="900" height="700" src="https://bergam0t.github.io/nhsr_conf_2024_pres_des/" title="NHS RPYSOC Conference 2024 Presentation"></iframe>
+```
+
+
+## Slide Code
+
+View the repository for the slides at [github.com/Bergam0t/nhsr_conf_2024_pres_des](https://github.com/Bergam0t/nhsr_conf_2024_pres_des)

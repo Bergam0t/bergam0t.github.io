@@ -1,31 +1,59 @@
 [
   {
-    "objectID": "sw25.html",
-    "href": "sw25.html",
+    "objectID": "talks/sw25_vidigi/sw25.html",
+    "href": "talks/sw25_vidigi/sw25.html",
     "title": "SW25 - Vidigi Poster",
     "section": "",
     "text": "Check out the vidigi package documentation\n\n\n\n Check out the source code on GitHub"
   },
   {
-    "objectID": "sw25.html#watch-the-package-in-action",
-    "href": "sw25.html#watch-the-package-in-action",
+    "objectID": "talks/sw25_vidigi/sw25.html#watch-the-package-in-action",
+    "href": "talks/sw25_vidigi/sw25.html#watch-the-package-in-action",
     "title": "SW25 - Vidigi Poster",
     "section": "Watch the package in action",
     "text": "Watch the package in action\n\n  \n  \n\nVidigi Showcase by Sammi Rosser"
   },
   {
-    "objectID": "sw25.html#view-the-poster",
-    "href": "sw25.html#view-the-poster",
+    "objectID": "talks/sw25_vidigi/sw25.html#view-the-poster",
+    "href": "talks/sw25_vidigi/sw25.html#view-the-poster",
     "title": "SW25 - Vidigi Poster",
     "section": "View the poster",
     "text": "View the poster\n\n  \n  \n\nvidigi poster - SW25 by Sammi Rosser"
   },
   {
-    "objectID": "sw25.html#have-a-go-with-a-simple-interface",
-    "href": "sw25.html#have-a-go-with-a-simple-interface",
+    "objectID": "talks/sw25_vidigi/sw25.html#have-a-go-with-a-simple-interface",
+    "href": "talks/sw25_vidigi/sw25.html#have-a-go-with-a-simple-interface",
     "title": "SW25 - Vidigi Poster",
     "section": "Have a go with a simple interface",
     "text": "Have a go with a simple interface"
+  },
+  {
+    "objectID": "talks/2411_nhsr/2411_nhsr.html",
+    "href": "talks/2411_nhsr/2411_nhsr.html",
+    "title": "NHS RPYSOC 2024 Conference: Unleashing the power of pathway simulation",
+    "section": "",
+    "text": "Discrete Event Simulation (DES) is a powerful tool for modelling queuing problems, allowing complex questions about pathways and resourcing to be explored before making costly and potentially risky changes to health services.\nHowever, there are barriers to its adoption: dedicated commercial software is prohibitively expensive, while free code-based open-source options are powerful and flexible but can be difficult to get started with and often lack the ability to clearly and engagingly visualise the model’s inner workings for stakeholders.\nThis talk provides a brief introduction to DES before covering a range of efforts that are underway within our team to overcome these problems and make DES an accessible modelling approachfor everyone working in healthcare:\nWhile the work primarily revolves around the SimPy package in Python, several elements have potential to be adapted for use with Python’s ciw package or R’s simmer package.\nWith the first version of the book available, several example models created, and the visualisation package due to be released in late 2024, now is a great time to start exploring the world of pathway simulation!"
+  },
+  {
+    "objectID": "talks/2411_nhsr/2411_nhsr.html#slides",
+    "href": "talks/2411_nhsr/2411_nhsr.html#slides",
+    "title": "NHS RPYSOC 2024 Conference: Unleashing the power of pathway simulation",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "talks/2411_nhsr/2411_nhsr.html#slide-code",
+    "href": "talks/2411_nhsr/2411_nhsr.html#slide-code",
+    "title": "NHS RPYSOC 2024 Conference: Unleashing the power of pathway simulation",
+    "section": "Slide Code",
+    "text": "Slide Code\nView the repository for the slides at github.com/Bergam0t/nhsr_conf_2024_pres_des"
+  },
+  {
+    "objectID": "talks/2311_nhsr/2311_nhsr.html",
+    "href": "talks/2311_nhsr/2311_nhsr.html",
+    "title": "NHS R 2023 Conference (Online): Extending PowerBI’s Visualisation Capabilities – R and Plotly to the rescue!",
+    "section": "",
+    "text": "NHS R 2023 Conference (Online): Extending PowerBI’s Visualisation Capabilities – R and Plotly to the rescue!"
   },
   {
     "objectID": "projects/des_playground.html",
@@ -47,5 +75,47 @@
     "title": "Sammi Rosser",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nOriginal Model from Thomas Monks. (2022), which is itself a free and open implementation of the Treatment Centre Model from Nelson (2013). TomMonks/treatment-centre-sim: v0.1.0 (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.6497477 Animation created by Sammi Rosser as part of vidigi testing.↩︎"
+  },
+  {
+    "objectID": "talks/2402_dsnhs/2402_dsnhs.html",
+    "href": "talks/2402_dsnhs/2402_dsnhs.html",
+    "title": "South West Analytics and Infrastructure in Healthcare (SWAIH) Insight Talk",
+    "section": "",
+    "text": "Making NHS data science open and reproducible: the importance of open source tools, Linux, and reproducible analytical pipelines, and how the HSMA programme can help organisations get ready for the future”\nThis talk introduces the value of free and open source software for data science and advanced analytics in the NHS, and how PenARC’s flagship HSMA programme is training staff in organisations to use these tools.\nIn the NHS, there are still barriers to installing the software, to sharing code, and to communicating the value of data science an operational research - leading to missed opportunities, frustrated staff, and inefficient processes. With the high-profile machine learning library TensorFlow dropping full support for Windows, is the situation only going to get worse? What can we do?\n\nLinks to resources mentioned in the talk: Click Here\nVisit the SWAIH website: sites.google.com/nihr.ac.uk/swaih/home"
+  },
+  {
+    "objectID": "talks/2402_dsnhs/2402_dsnhs.html#data-science-in-the-nhs---a-journey-through-open-source-tools-linux-and-training-initiatives",
+    "href": "talks/2402_dsnhs/2402_dsnhs.html#data-science-in-the-nhs---a-journey-through-open-source-tools-linux-and-training-initiatives",
+    "title": "South West Analytics and Infrastructure in Healthcare (SWAIH) Insight Talk",
+    "section": "",
+    "text": "Making NHS data science open and reproducible: the importance of open source tools, Linux, and reproducible analytical pipelines, and how the HSMA programme can help organisations get ready for the future”\nThis talk introduces the value of free and open source software for data science and advanced analytics in the NHS, and how PenARC’s flagship HSMA programme is training staff in organisations to use these tools.\nIn the NHS, there are still barriers to installing the software, to sharing code, and to communicating the value of data science an operational research - leading to missed opportunities, frustrated staff, and inefficient processes. With the high-profile machine learning library TensorFlow dropping full support for Windows, is the situation only going to get worse? What can we do?\n\nLinks to resources mentioned in the talk: Click Here\nVisit the SWAIH website: sites.google.com/nihr.ac.uk/swaih/home"
+  },
+  {
+    "objectID": "talks/2511_nhsrpycom/2511_nhsrpycom.html",
+    "href": "talks/2511_nhsrpycom/2511_nhsrpycom.html",
+    "title": "NHSRPySOC 2025 - NHS-R/NHS.pycom Open Source Conference - Keynote",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "talks/2511_nhsrpycom/2511_nhsrpycom.html#recording",
+    "href": "talks/2511_nhsrpycom/2511_nhsrpycom.html#recording",
+    "title": "NHSRPySOC 2025 - NHS-R/NHS.pycom Open Source Conference - Keynote",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "talks/2511_nhsrpycom/2511_nhsrpycom.html#slides",
+    "href": "talks/2511_nhsrpycom/2511_nhsrpycom.html#slides",
+    "title": "NHSRPySOC 2025 - NHS-R/NHS.pycom Open Source Conference - Keynote",
+    "section": "Slides",
+    "text": "Slides\nComing Soon!"
+  },
+  {
+    "objectID": "talks/2511_nhsrpycom/2511_nhsrpycom.html#resources",
+    "href": "talks/2511_nhsrpycom/2511_nhsrpycom.html#resources",
+    "title": "NHSRPySOC 2025 - NHS-R/NHS.pycom Open Source Conference - Keynote",
+    "section": "Resources",
+    "text": "Resources\n\nThe tapestry of reusability"
   }
 ]
