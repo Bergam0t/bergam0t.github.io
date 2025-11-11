@@ -15,10 +15,146 @@ Coming Soon!
 
 ## Slides
 
-Coming Soon!
+<iframe width="900" height="700" src="https://sammirosser.com/RPySOC-2025-keynote/#/title-slide" title="NHS RPYSOC Conference 2025 Presentation"></iframe>
+
+Click [here](https://sammirosser.com/RPySOC-2025-keynote/#/title-slide) to open the slides in a new window.
+
+Click [here](https://github.com/Bergam0t/RPySOC-2025-keynote) to open the code for the slides.
+
+## The Healthcare Services Analytics & Decision Science Atlas
+
+### Access the Atlas
+
+### Contribute to the Atlas
+
+
 
 ## Resources
 
 ### The tapestry of reusability
 
 ![](Tapestry of reusability.svg){height="600px"}
+
+
+### GitHub
+
+- HSMA session 7A details how to get used to GitHub with VSCode. You can find the session recording and slides on the [HSMA modules page](https://hsma.co.uk/hsma_content/modules/current_module_details/7_git_and_web_development.html).
+- The [NHS-R statement on tools (Git and GitHub) page](https://tools.nhsrcommunity.com/statement-on-using-tools-git.html) provides a range of useful resources relating to Git, including detailing a number of organisations who make use of Git/GitHub.
+- There are also various NHS-R webinars available to help you get started with git/GitHub
+    - [NHS-R/NHS.pycom Conference Workshop 2023: Introduction to Version Control (Git/GitHub)
+](https://www.youtube.com/watch?v=wOk7wDsHD8o)
+    - [May 2023 Webinar: Version Control and RStudio](https://www.youtube.com/watch?v=qNMOPWT8jSo)
+
+#### Template repositories
+
+A lot of NHS organisations have created their own template repositories.
+
+You may wish to use these as inspiration for setting up your own template, or just borrow them!
+
+- NHS Digital rap-package-template: [github.com/NHSDigital/rap-package-template](https://github.com/NHSDigital/rap-package-template)
+- NHS England SW Region template: [github.com/nhsengland/SWRegionTemplate](https://github.com/nhsengland/SWRegionTemplate)
+- NHS England Repository template: [github.com/nhsengland/nhse-repository-template](https://github.com/nhsengland/nhse-repository-template)
+- Birmingham and Solihull ICS template: [github.com/Birmingham-and-Solihull-ICS/BSOLproject](https://github.com/Birmingham-and-Solihull-ICS/BSOLproject)
+- Countess of Chester:
+    - Python template: [github.com/Countess-of-Chester-Hospital-NHS-FT/Project-Template-Python](https://github.com/Countess-of-Chester-Hospital-NHS-FT/Project-Template-Python)
+    - R template: [github.com/Countess-of-Chester-Hospital-NHS-FT/Project-Template-R](https://github.com/Countess-of-Chester-Hospital-NHS-FT/Project-Template-R)
+
+### LICENCEs
+
+#### Creating a licence via the GitHub 'add file' web interface
+
+If you create it via Github, it helps you choose one and make the file!
+
+![](assets/2025-11-03-16-23-21.png)
+
+![](assets/2025-11-03-16-23-56.png)
+
+![](assets/2025-11-03-16-24-44.png)
+
+![](assets/2025-11-03-16-25-11.png)
+
+![](assets/2025-11-03-16-38-21.png)
+
+#### What licence should I use?
+
+- MIT and GPL3 are pretty decent options to start with
+- [ChooseALicence](https://choosealicense.com/) helps if you're unsure
+
+### README.md
+
+- A file called README.md in the repository root (i.e. the main folder of your repository), a 'docs' folder or a '.github' folder will be picked up and rendered by GitHub when users open your repository
+- Here are some tips from GitHub about writing a readme: [docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- GitHub readmes use markdown, similar to Quarto/rmarkdown, but with some of its own features and quirks: [docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- It's also possible to draw attention to particular parts of your readme with special sections: [github.com/orgs/community/discussions/16925](https://github.com/orgs/community/discussions/16925)
+
+#### Bonus - a readme of you (or your organisation)
+
+##### You
+
+- If you create a repository and give it the same name as your GitHub username, then create a README.md file in this repository, this will show up as a readme when people visit your GitHub profile.
+- This can be a great way to give visibility to certain projects you are working on or would like people to know about, with more flexibility than the pinned repositories feature.
+- As someone who has been involved in recruitment of coders, I think this can really help you to shine. I wouldn't necessarily be looking for it to be creative or pretty - but I'd value knowing which of your projects you think are worth highlighting and what they do.
+- Here's an example of mine.
+    - I'm Bergam0t on Github.
+    - My readme is in this repository: [github.com/Bergam0t/Bergam0t](https://github.com/Bergam0t/Bergam0t)
+    - You can see it on my profile: [github.com/Bergam0t](https://github.com/Bergam0t)
+    - ![](assets/2025-11-11-14-11-40.png)
+- Here are some more details from GitHub on this: [docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
+- There are lots of cool examples out there
+    - This is a great one from one of my colleagues: [github.com/amyheather](https://github.com/amyheather)
+    - Here's a collection someone created: [github.com/abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+    - And another collection: [github.com/coderjojo/creative-profile-readme](https://github.com/coderjojo/creative-profile-readme)
+
+##### An organisation (e.g. your trust/ICB/team GitHub)
+
+- For organisations, the repo name and structure is a little different, but the principle is similarThe HSMA organisation is similar
+    - it's hsma-programme on GitHub
+    - The readme is in this repository: [https://github.com/hsma-programme/.github](https://github.com/hsma-programme/.github)
+    - You can see it on our profile: [https://github.com/hsma-programme](https://github.com/hsma-programme)
+- Here are some more details from GitHub on this: [https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile)
+
+### Writing Docstrings
+
+- My preferred style is the numpydoc style, which is very human readable and is also supported by a range of documentation creation engines
+    - you can see an example numpydoc docstring [here](https://numpydoc.readthedocs.io/en/latest/example.html)
+- Tools such as Claude.ai, Google Gemini, and ChatGPT are pretty good at
+- Extensions for various IDEs exist to
+    - e.g. [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) for Python doctrings in VSCode
+
+### Creating Documentation
+
+- [pdoc](https://pdoc.dev/) is a pretty easy documentation package to get started with
+- [sphinx](https://www.sphinx-doc.org/en/master/) is very powerful, but has a bit of a steeper learning curve
+- my favourite - and recommendation if you use Quarto in any other capacity - is [quartodoc]()
+- see some examples of how I've set it up:
+    - example 1: the stlitepack documentation. [_quarto.yml](https://github.com/hsma-tools/stlitepack/blob/main/_quarto.yml), [repository](https://github.com/hsma-tools/stlitepack), [documentation](https://hsma-tools.github.io/stlitepack/stlitepack_docs/)
+    - example 2: the vidigi documentation. [_quarto.yml](https://github.com/hsma-tools/vidigi/blob/main/_quarto.yml), [repository](https://github.com/hsma-tools/vidigi), [documentation](https://hsma-tools.github.io/vidigi/vidigi_docs/)
+
+
+#### Hosting Documentation
+
+
+#### Hosting your personal site
+
+- Make a repository called `yourusername.github.io`
+- Use one of Quarto's [about page templates](https://quarto.org/docs/websites/website-about.html)
+- Make yourself a quick and easy personal site and host for free
+    - if you feel like it, you can set up a custom URL.
+- Feel free to use my site as a template!
+    - The code can be found at [github.com/Bergam0t/bergam0t.github.io](https://github.com/Bergam0t/bergam0t.github.io)
+
+
+### Auto-linting
+
+
+### Folder Structure
+
+
+### Tests
+
+
+
+### Issues + Projects
+
+
+### Packages
