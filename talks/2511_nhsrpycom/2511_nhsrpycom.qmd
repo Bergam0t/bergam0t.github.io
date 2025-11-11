@@ -5,6 +5,7 @@ format:
         toc: true
         toc-depth: 3
         toc-fold: 3
+        page-layout: full
 ---
 
 #### Friday 14th November 2024 {.unlisted}
@@ -25,9 +26,17 @@ Click [here](https://github.com/Bergam0t/RPySOC-2025-keynote) to open the code f
 
 ### Access the Atlas
 
+<iframe width="900" height="700" src="https://atlas.hsma.co.uk" title="HSMA Atlas"></iframe>
+
+Click [here (https://atlas.hsma.co.uk/)](https://atlas.hsma.co.uk/) to open the atlas in a new window.
+
+Click [here (https://github.com/hsma-programme/decision_intelligence_atlas)](https://github.com/hsma-programme/decision_intelligence_atlas) to open the code for the atlas.
+
 ### Contribute to the Atlas
 
+Head to the readme for the atlas to find out how you can contribute. You don't need to know Quarto or GitHub to get involved in populating it!
 
+![Atlas Readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file)
 
 ## Resources
 

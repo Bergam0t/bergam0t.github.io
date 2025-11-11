@@ -2,6 +2,7 @@
 format:
     html:
         toc: false
+        page-layout: full
 ---
 
 # NHS R 2023 Conference (Online): Extending PowerBI’s Visualisation Capabilities – R and Plotly to the rescue!

@@ -3,6 +3,7 @@ title: South West Analytics and Infrastructure in Healthcare (SWAIH) Insight Tal
 format:
     html:
         toc: false
+        page-layout: full
 ---
 
 ## Data Science in the NHS - A journey through open source tools, Linux, and training initiatives

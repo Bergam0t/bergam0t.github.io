@@ -3,6 +3,7 @@ title: "NHS RPYSOC 2024 Conference: Unleashing the power of pathway simulation"
 format:
     html:
         toc: false
+        page-layout: full
 ---
 
 ### Friday 22nd November 2024

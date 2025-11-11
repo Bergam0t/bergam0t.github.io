@@ -3,6 +3,7 @@ title: Operational Research Society Simulation Workshop 2025 - Vidigi Poster
 format:
     html:
         toc: false
+        page-layout: full
 ---
 
 
