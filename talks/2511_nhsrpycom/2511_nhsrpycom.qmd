@@ -102,6 +102,7 @@ If you create it via Github, it helps you choose one and make the file!
 - Here are some more details from GitHub on this: [docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
 - There are lots of cool examples out there
     - This is a great one from one of my colleagues: [github.com/amyheather](https://github.com/amyheather)
+    - And another one: [github.com/TomMonks](https://github.com/TomMonks)
     - Here's a collection someone created: [github.com/abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
     - And another collection: [github.com/coderjojo/creative-profile-readme](https://github.com/coderjojo/creative-profile-readme)
 
@@ -115,46 +116,172 @@ If you create it via Github, it helps you choose one and make the file!
 
 ### Writing Docstrings
 
+#### Python
+
 - My preferred style is the numpydoc style, which is very human readable and is also supported by a range of documentation creation engines
     - you can see an example numpydoc docstring [here](https://numpydoc.readthedocs.io/en/latest/example.html)
 - Tools such as Claude.ai, Google Gemini, and ChatGPT are pretty good at
 - Extensions for various IDEs exist to
     - e.g. [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) for Python doctrings in VSCode
 
-### Creating Documentation
+#### R
+
+This isn't my area of expertise!
+
+But I believe the combo you are looking for is roxygen comments plus the roxygen2 package: [r-pkgs.org/man.html](https://r-pkgs.org/man.html)
+
+### Documentation
+
+#### Creating Documentation
+
+##### Python
 
 - [pdoc](https://pdoc.dev/) is a pretty easy documentation package to get started with
 - [sphinx](https://www.sphinx-doc.org/en/master/) is very powerful, but has a bit of a steeper learning curve
-- my favourite - and recommendation if you use Quarto in any other capacity - is [quartodoc]()
+- my favourite - and recommendation if you use Quarto or rmarkdown in any other capacity - is [quartodoc](https://machow.github.io/quartodoc/get-started/overview.html)
+    - you can use all of your favourite Quarto extensions
 - see some examples of how I've set it up:
     - example 1: the stlitepack documentation. [_quarto.yml](https://github.com/hsma-tools/stlitepack/blob/main/_quarto.yml), [repository](https://github.com/hsma-tools/stlitepack), [documentation](https://hsma-tools.github.io/stlitepack/stlitepack_docs/)
     - example 2: the vidigi documentation. [_quarto.yml](https://github.com/hsma-tools/vidigi/blob/main/_quarto.yml), [repository](https://github.com/hsma-tools/vidigi), [documentation](https://hsma-tools.github.io/vidigi/vidigi_docs/)
 
 
+##### R
+
+This isn't my area of expertise!
+
+But I believe the combo you are looking for is roxygen comments plus the pkgdown package: [r-pkgs.org/website.html](https://r-pkgs.org/website.html)
+
 #### Hosting Documentation
+
+Various free options exist for hosting your sites.
+
+I plan to write a slightly fuller walkthrough for this in future! But here are a few jottings to get you started.
+
+##### GitHub pages
+
+My favourite option is GitHub pages. If your work is already hosted on GitHub, this often makes a lot of sense.
+
+:::{.callout-warning}
+Note that this is only possible only public repositories and the resulting site will also be publicly accessible (unless you are using GitHub enterprise).
+:::
+
+In your repo, go to 'settings'.
+
+![](assets/2025-11-11-18-18-05.png)
+
+Select 'pages' in the menu on the left.
+
+![](assets/2025-11-11-18-18-25.png)
+
+The quickest/easiest option is to 'deploy from a branch'.
+
+![](assets/2025-11-11-18-18-49.png)
+
+I prefer to publish from the /docs folder as this keeps everything neater. This will then look in the relevant folder for a file called `index.html`, which will become the homepage of your document.
+
+![](assets/2025-11-11-18-19-06.png)
+
+Once you've done this, head over to the settings cog of your repository.
+
+![](assets/2025-11-11-18-26-52.png)
+
+Opening this will give you a space to add a description of your repository, as well as add the link.
+
+![](assets/2025-11-11-18-27-49.png)
+
+Ticking the 'use your GitHub pages site' option will automatically put a link to the site in the description.
+
+![](assets/2025-11-11-18-28-16.png)
+
+**Quarto and GitHub pages**
+
+If you're using quarto/quartodoc, to achieve this, in your quarto.yml, you'll want to add an `output-dir` to the project section.
+
+e.g
+
+```yml
+project:
+  type: website
+  output-dir: docs
+```
+
+You'll then render your quarto site with the `quarto render` command and commit the contents of the `docs` folder.
+
+You will also need to commit a blank file called `.nojekyll` to your repository root. This prevents any post-processing being applied to your quarto site when GitHub pages builds it, which generally causes errors.
+
+##### Quartopub
+
+Alternatively you can use the quartopub publishing services.
+
+Details can be found [here](https://quarto.org/docs/publishing/quarto-pub.html).
+
+:::{.callout-warning}
+Note that the site will be publicly visible
+:::
 
 
 #### Hosting your personal site
 
+If you like, you can also make yourself a portfolio site. This is another great way to showcase work you've done, talks you've given, etc.
+
 - Make a repository called `yourusername.github.io`
 - Use one of Quarto's [about page templates](https://quarto.org/docs/websites/website-about.html)
-- Make yourself a quick and easy personal site and host for free
-    - if you feel like it, you can set up a custom URL.
 - Feel free to use my site as a template!
+    - You're on the site right now: [sammirosser.com](https://sammirosser.com)
     - The code can be found at [github.com/Bergam0t/bergam0t.github.io](https://github.com/Bergam0t/bergam0t.github.io)
-
+    - I used Cloudflare for a cheap domain name (<£10 a year) - drop me an email at [hi@sammirosser.com](mailto:hi@sammirosser.com) if you'd like some tips on setting this up.
 
 ### Auto-linting
 
+- Ruff is a brilliant option for Python linting in VSCode: [https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff](marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
+    - scroll down to the section 'settings' --> 'Configuring VSCode' to see how to set it up to lint-on-save. It's well worth it!
 
-### Folder Structure
+- Air is apparently a great option for R in both VSCode and Positron, though I haven't used it myself: [posit-dev.github.io/air/editor-vscode.html](https://posit-dev.github.io/air/editor-vscode.html)
+    - Again, you'd want to turn on 'format on save': [posit-dev.github.io/air/editor-vscode.html#editor-vs-code-format-on-save](https://posit-dev.github.io/air/editor-vscode.html#editor-vs-code-format-on-save)
 
+- While there is some support for Air in RStudio, you may be better off with the [styler](https://styler.r-lib.org/) package
+    - There's some good information [on R for the rest of us](https://rfortherestofus.com/2024/03/styler-package) about using styler via the RStudio command palette (towards the end of the article)
+    - It should also be possible to set it to style on save via the R settings (image credit: [kevinushey](https://github.com/kevinushey) on GitHub: [github.com/rstudio/rstudio/issues/2563](https://github.com/rstudio/rstudio/issues/2563))
+    ![](assets/2025-11-11-18-38-31.png)
 
 ### Tests
 
+Don't be afraid to start extremely simple and build up your tests over time. One test is better than none!
 
+And even though tests are often talked about in the context of packages, they don't have to be used in that way. You can use the functions from the testing packages mentioned in other scripts too!
+
+#### Python
+
+[pytest](https://docs.pytest.org/en/stable/) is the most recommended testing framework for Python.
+
+There's a nice introduction to tests in the HSMA DES book here ([des.hsma.co.uk/tests.html](https://des.hsma.co.uk/tests.html)) - even though it's in the context of simulation models, it's a good general overview of the concepts - thanks [Amy!](https://github.com/amyheather)
+
+I've also found this free eBook to be really useful: [pytest-with-eric.com/](https://pytest-with-eric.com/)
+
+#### R
+
+In r, the [testthat](https://testthat.r-lib.org/) package is the most popular option.
+
+There's a nice overview of using it in the R packages free eBook by Hadley Wickham and Jennifer Bryan: [r-pkgs.org/testing-basics.html](https://r-pkgs.org/testing-basics.html)
 
 ### Issues + Projects
 
+We provide an overview of issues in one of our HSMA presentations: [hsma-programme.github.io/h6_march_2025_forum_presentation/#/github-issues](https://hsma-programme.github.io/h6_march_2025_forum_presentation/#/github-issues)
+
+There are also some details on projects here: [hsma-programme.github.io/h6_march_2025_forum_presentation/#/projects](https://hsma-programme.github.io/h6_march_2025_forum_presentation/#/projects)
 
 ### Packages
+
+#### Python
+
+For Python, the best introduction I've found is by [Professor Tom Monks](https://github.com/TomMonks), in his eBook written for students on his health data science MSc. It's approachable and thorough, and takes you from creating a local package all the way to publishing it on PyPi. It's the document I always return to for a new package.
+
+[pythonhealthdatascience.com/content/03_mgt/02_packaging/01_python_packages.html](https://www.pythonhealthdatascience.com/content/03_mgt/02_packaging/01_python_packages.html)
+
+#### R
+
+The [r packages](r-pkgs.org) ebook by Hadley Wickham and Jennifer Bryan is a great resource
+
+I think the welcome page has a great bit of advice:
+
+> Writing a package can seem overwhelming at first. So start with the basics and improve it over time. It doesn’t matter if your first version isn’t perfect as long as the next version is better.
