@@ -26,7 +26,7 @@ Click [here](https://github.com/Bergam0t/RPySOC-2025-keynote) to open the code f
 
 ### Access the Atlas
 
-<iframe width="900" height="700" src="https://atlas.hsma.co.uk" title="HSMA Atlas"></iframe>
+<iframe width="900" height="700" src="https://atlas.hsma.co.uk/packages_projects_tools/packages_projects_tools" title="HSMA Atlas"></iframe>
 
 Click [here (https://atlas.hsma.co.uk/)](https://atlas.hsma.co.uk/) to open the atlas in a new window.
 
@@ -36,14 +36,13 @@ Click [here (https://github.com/hsma-programme/decision_intelligence_atlas)](htt
 
 Head to the readme for the atlas to find out how you can contribute. You don't need to know Quarto or GitHub to get involved in populating it!
 
-![Atlas Readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file)
+[Atlas Readme](https://github.com/hsma-programme/decision_intelligence_atlas?tab=readme-ov-file)
 
 ## Resources
 
 ### The tapestry of reusability
 
-![](Tapestry of reusability.svg){height="600px"}
-
+![](tor.svg){height="600px"}
 
 ### GitHub
 
