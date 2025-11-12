@@ -42,7 +42,7 @@ Head to the readme for the atlas to find out how you can contribute. You don't n
 
 ### The tapestry of reusability
 
-![](tor.svg){height="600px"}
+![](assets/tor.svg){height="600px"}
 
 ### GitHub
 
