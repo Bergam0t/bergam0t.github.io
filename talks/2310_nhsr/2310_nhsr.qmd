@@ -10,3 +10,31 @@ format:
 #### Wednesday 11th October 2023
 
 {{< video https://youtu.be/3uSbLT7ISPc?si=VqB3co_cTTWXgniX&t=2063 >}}
+
+##### SPC Visual
+
+This custom R-powered PowerBI visual, based off the NHSRplotthedots package, allows SPC charts to be created within PowerBI that automatically adhere to the making data count guidance.
+
+![](assets/2025-11-24-10-01-16.png)
+
+Extensive customisation is available through built-in menus. Multiple output types are possible, including faceted graphs, metric cards, and several summary tables.
+
+**Repository**: <https://github.com/Bergam0t/nhs_ptd_power_bi>
+
+##### Health and Social Care Service Use Timelines (Theographs/Pearn Charts) for overlapping data
+
+This custom R-powered PowerBI visual takes a simple, routinely collected dataset of patient history and displays it in a clear format.
+
+Long-term referrals as well as individual interactions with services can be shown, with customisable tooltips, allowing clinicians to get an overview of a patient's history in a quick glance and spot repeated patterns of service interaction. Designed initially for use in mental health services, where clients can have more than a decade of data, thousands of contacts, and systems which display these details as rows of text rather than in a way that allows easy interpretation.
+
+![](assets/2025-11-24-10-02-46.png)
+
+**Repository**: <https://github.com/Bergam0t/community_service_timelines>
+
+##### Health and Social Care Service Use Timelines (Theographs/Pearn Charts) for non-overlapping data
+
+A second visual is designed specifically for non-overlapping data, such as ward stays.
+
+![](assets/2025-11-24-10-03-49.png)
+
+**Repository**: <https://github.com/Bergam0t/inpatient_timelines>
