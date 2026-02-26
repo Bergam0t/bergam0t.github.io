@@ -8,11 +8,11 @@ format:
         page-layout: full
 ---
 
-#### Friday 14th November 2024 {.unlisted}
+#### Friday 14th November 2025 {.unlisted}
 
 ## Recording
 
-Coming Soon!
+{{< video https://youtu.be/JU0DG0hB1bQ?si=5JBDJiSFCc-KKb02 >}}
 
 ## Slides
 
